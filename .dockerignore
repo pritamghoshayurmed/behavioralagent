@@ -1,0 +1,48 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+.venv
+
+# Environment and configuration files
+.env
+*.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git
+.gitignore
+
+# Docker files
+Dockerfile
+.dockerignore
+
+# Build and dependency caches
+*.log
+*.sqlite3
+*.db
+*.egg-info/
+dist/
+build/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+
+# Node / frontend build caches (if any)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Test data or large local files
+tests/
+data/
+tmp/
